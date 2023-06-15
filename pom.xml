@@ -15,12 +15,10 @@
 
     <dependencies>
         <dependency>
-            <groupId>junit</groupId>
-            <artifactId>junit</artifactId>
-            <version>3.8.1</version>
-            <scope>test</scope>
+            <groupId>org.java-websocket</groupId>
+            <artifactId>Java-WebSocket</artifactId>
+            <version>1.5.3</version>
         </dependency>
-
     </dependencies>
     <build>
         <plugins>
@@ -64,7 +62,7 @@
                         <configuration>
                             <archive>
                                 <manifest>
-                                    <mainClass>HK.com.hit.sky.job.CronTrigger</mainClass>
+                                    <mainClass>HK.com.hit.sky.utility.WebSocketConnection</mainClass>
                                     <addClasspath>true</addClasspath>
                                     <classpathPrefix>lib/</classpathPrefix>
                                 </manifest>
@@ -76,7 +74,7 @@
                 <configuration>
                     <archive>
                         <manifest>
-                            <mainClass>HK.com.hit.sky.job.CronTrigger</mainClass>
+                            <mainClass>HK.com.hit.sky.utility.WebSocketConnection</mainClass>
                             <addClasspath>true</addClasspath>
                             <classpathPrefix>lib/</classpathPrefix>
                         </manifest>
@@ -90,7 +88,7 @@
                 <configuration>
                     <archive>
                         <manifest>
-                            <mainClass>HK.com.hit.sky.job.CronTrigger</mainClass>
+                            <mainClass>HK.com.hit.sky.utility.WebSocketConnection</mainClass>
                         </manifest>
                     </archive>
                     <descriptorRefs>
